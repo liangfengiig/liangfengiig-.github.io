@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>请登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/initialize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/dlu.css"/>
+		<style type="text/css">
+			@font-face{
+				font-family: 'wang';
+				src: url('font/庞门正道标题体.ttf');
+			}
+			body{
+				font-family: wang;
+				width: 100vw;
+				height: 100vh;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+         <a class="fanhui" href="../default.html">返回首页>></a>
+			<div class="zhu">
+				<div class="nr">
+				    <span class="jz"><img class="tx" src="../img/icon/tx.jpg"></span>
+					<form class="zcb" name="myForm" action="../default.html" onsubmit="return validateForm()" method="post">
+		<label for="username">用户名:*</label>
+		<input type="text" name="username" id="username"><br>
+	<label for="password">密&nbsp;&nbsp;&nbsp;码:*</label>
+		<input type="password" name="password" id="password"><br>
+		<label for="yz">验证码:&nbsp;</label>
+		<input type="text" name="yz" id="yz"><br>
+        <button class="dl" type="submit" name="submit" value="提交">登录</button>
+		<button class="dl" type="reset">重置</button>
+                    </form>
+					
+			  </div>
+			</div>
+		</div>
+
+<script src="../js/zcb.js"></script>
+		
+	</body>
+</html>

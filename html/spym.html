@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>西藏视频</title>
+		<link rel="stylesheet" type="text/css" href="../css/initialize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/spym.css"/>
+	</head>
+	<body>
+		<div class="yamain">
+			<canvas id="xuehua"></canvas>
+			<!-- -------------------- -->
+			<div class="top" id="top">
+				<div class="open" onclick="yaopen()"></div>
+				<div class="logo" id="logo"><img src="../img/icon/logo.png"><p>彭池旅游网<br><span>तिब्बत पर्यटन</span></p></div>
+				<div class="dhl">
+					<div class="dhls"><a href="../default.html">网站首页</a><span class="bshi"></span></div> 
+					<div class="dhls"><a href="tmxz.html" >探秘西藏</a><span class="bshi"></span></div> 
+					<div class="dhls" ><a href="wzxz.html">玩转西藏</a><span class="bshi" ></span></div> 
+					<div class="dhls" ><a href="rdhd.html">热点活动</a><span class="bshi"></span></div> 
+					<div class="dhls" ><a href="wyfx.html" >网友分享</a><span class="bshi"></span></div> 
+                    <div class="dhls" ><a href="" style="color: orange;">西藏视频</a><span class="bshi"  style="transform: scaleX(1);" ></span></div>
+					<div class="dhls" ><a href="xyms.html" >西域美食</a><span class="bshi"></span></div>
+					<div class="dhls" ><a href="rwfq.html">人文风情</a><span class="bshi"></span></div>
+					<div class="guanbi" onclick="yadate()"></div>
+				</div>	
+				<div class="my">
+					<p id="name">你好,旅行者</p>
+					<img src="../img/icon/tx.jpg" id="txqy">
+				</div>
+			</div>
+			<!-- -------------------- -->
+			<div class="content" id="content"> <div class="bglunbo"></div></div>
+			<!-- --------内容------------ -->
+			<div class="nrs">
+				<div class="tmxz">
+					<h2>西域美景</h2>
+				</div>
+				<div>
+			  <video controls src="../video/穿越西藏航拍凌龙.mp4"> </video>
+            </div>
+			</div>	
+			
+			<div class="nr_div5" >
+					<p>更多精彩视频</p>
+					<div class="div5_s">
+						<div class="div5_l">
+							<div class="bofang"><span></span></div>
+							<img src="../img/changdu.jpg" >
+							<p style="padding-top: 80px;">雅鲁藏布江</p>
+						</div>
+						<div class="div5_r">
+							<p><span style="font-size: 50px;">藏原山南</span><br>一个人需要隐藏多少秘密 才能巧妙地度过一生 这佛光闪闪的高原 三步两步便是天堂 却仍有那么多人 因心事过重而走不动 --仓央嘉措</p>
+						</div>
+					</div>
+					<div class="div5_x">
+						<div class="div5_r">
+							<p style="text-indent: 2em;">这么多年 你一直在我心口幽居 我放下过天地，却从未放下过你 渐悟也好，顿悟也罢 世间事除了生死 哪一件事不是闲事 我独坐须弥山巅 将万里浮云一眼看开 一个人在雪中弹琴 另一个人在雪中知音 生命中的千山万水任你一一告别 殉葬的花朵，开合有度 菩提的果实，奏响了空山 告诉我 你藏在落叶下的那些脚印 暗示着多少祭日，专供我法外逍遥 --仓央嘉措</p>
+						</div>
+						<div class="div5_l">
+							<div class="bofang"><span></span></div>
+							<img src="../img/lasa.jpg" >
+							<p style="left: 0;background: #3f3d40;padding-top: 90px;">布达拉宫</p>
+						</div>
+					</div>
+				</div>
+		
+			
+			
+			
+		  <!-- ------------------------- -->
+			<div class="foot">
+				<div class="foot_l">
+					<div class="sanjiao"></div>
+					<img src="../img/icon/logo.png">	
+					<p>彭梦婷<br><span>QQ:123456789</span></p>
+					<img style="padding: 10px; 5px" src="../img/gxjd.jpg" >
+					<p>广西财经学院<br><span>官网:www.gxufe.edu.cn</span></p>
+					<ul class="fooot_ul">
+						<li>技术合作:百度</li>
+						<li>技术支持: &nbsp;&nbsp; Css3 &nbsp;&nbsp; JavaScript</li>
+						<li>联系电话:1234567891</li>
+					</ul>
+				</div>
+				<div class="foot_r">
+					<p>©CopyRight 2021-2021 YA2.Net Inc All Rights Reserved. 彭池旅游 版权所有</p>
+				</div>
+			</div>
+			<!-- ------------------------- -->
+			
+			
+			
+			
+			
+			
+		
+
+		</div>
+		<!-- //js -->
+		<script src="../js/xuehua.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/xuehua.js" type="text/javascript" charset="utf-8"></script>
+		  <script type="text/javascript">
+		  	window.onscroll=function(){
+		  		var scrollTop=document.documentElement.scrollTop ||document.body.scrollTop;
+		  		console.log("距离"+scrollTop);
+		  		var top=document.getElementById("top");
+		  		var logo=document.getElementById("logo");
+		  		if(Number(scrollTop)<150){
+		  			top.style.background="linear-gradient(to bottom,rgba(0,0,0,.6) ,rgba(0,0,0,0))";
+		  			logo.style.transform="scale(1) translatey(0px)";
+		  		}else{
+					top.style.background="#3f3d40";
+					logo.style.transform="scale(.8) translatey(-5px)";
+				}
+			}
+		</script>
+	</body>
+</html>
